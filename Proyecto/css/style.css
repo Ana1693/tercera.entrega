@@ -1,0 +1,329 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/*-------------------------------------------------------INDEX-----------------------------------------------------*/
+
+body {
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.formulario-izquierdo {
+    width: 60%;
+    height: 100%;
+    float: left;
+    background: url('../assets/images/fondo1.jpg') no-repeat center;
+    background-size: cover;
+
+}
+
+.formulario-izquierdo img {
+    width: 80%;
+    height: 82%;
+    margin-top: 15%;
+    margin-left: 12%;
+
+}
+
+
+
+.formulario-derecho {
+    width: 40%;
+    height: 100%;
+    margin: 0%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.formulario-derecho img {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%
+}
+
+.formulario-derecho form {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-derecho h1 {
+    font-size: 2em;
+    color: #30ABB1;
+    margin: 50px 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.formulario-derecho form>input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.2em;
+
+}
+
+.formulario-derecho label {
+    width: 100%;
+    font-size: 18 px;
+    font-weight: 700;
+    margin: 20px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#boton1 {
+    background-color: #30ABB1;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px;
+
+}
+
+#boton1:hover {
+    background-color: rgb(67, 211, 216);
+    box-shadow: 1px 1px 1px #0fcfff;
+}
+
+a {
+
+    color: #067d81;
+}
+
+@media only screen and (max-width: 1089px) {
+    .formulario-izquierdo {
+        display: none;
+    }
+
+    .formulario-derecho {
+        width: 100%;
+    }
+
+    .formulario-derecho form {
+        width: 70%;
+        padding: 1em;
+    }
+
+
+
+}
+
+
+
+
+/*-------------------------------------------------PRINCIPAL-----------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+    .navbar-nav>li:hover {
+        background-color: #3aeaf0;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-toggler {
+        border: none;
+
+    }
+    
+.Grafica{
+   display: none; 
+
+}
+.tabla{
+    
+    display: flex;
+    align-content: center;
+    justify-content: center
+   
+}
+.detalles{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+}
+
+@media(max-width:395px){
+    
+    .tabla{
+        width: 100%;
+        
+    }
+    
+   
+}
+
+#menuLateral{
+    
+ background-color: #30ABB1;
+      
+}
+    #prueba {
+      background-color: #30ABB1;
+    }
+
+
+
+
+
+.Grafica {
+    margin-top: -7%;
+    margin-left:40%;
+}
+
+
+.board {
+
+    width: 40%;
+    height: 450px;
+    background-color: #ffffff;
+    padding: 1px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+
+.sub_board {
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.sep_board {
+    width: 100%;
+    height: 10%;
+}
+
+.cont_board {
+    width: 100%;
+    height: 80%;
+}
+
+.graf_board {
+    width: 85%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+
+
+}
+
+.barra {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.sub_barra {
+    width: 100%;
+    background: #30ABB1;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+
+.tag_g {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: -20px;
+    z-index: 2;
+}
+
+
+
+.b1 {
+    height: 40%
+}
+
+.b2 {
+    height: 20%
+}
+
+.b3 {
+    height: 30%
+}
+
+
+.tabla{
+    
+    position:fixed;
+    top: 19%;
+    left: 90px;
+    margin: 90px;
+    border: "1";
+    width: 20%;
+    height: 20%;
+    
+}
+
+.detalles{
+    top: 25%;
+    left: 13%;
+    position: fixed;
+    font-size: large;
+    font-weight: 800;
+
+}
+
+
+h1{
+    top:10%;
+    left: 14%;
+    position: fixed;
+    
+
+}
+
+
+/*--------------------------------------------------------------Restablecer -----------------------------------------------*/
+
+
+
+
+#correo {
+    position: relative;
+    height: 40px;
+    width: 45px;
+    left: 40px;
+    top: 60px;
+}
+
+
+
+#mujer {
+    position: fixed;
+    height: 500px;
+    left: 700px;
+}
+
+
